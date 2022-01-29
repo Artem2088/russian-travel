@@ -1,10 +1,7 @@
 .page {
-    display: flex;
-    flex-direction: column;
     min-width: 320px;
-    max-width: 1280px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 28px 10px 0;
     background-color: #2A2C2F;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smooting: grayscale;
@@ -14,7 +11,7 @@
     text-rendering: optimizeLegibility;
 }
 
-@media  screen and (max-width : 1024px){
+/*@media  screen and (max-width : 1024px){
     .page {
         max-width: 1024px;
     }
@@ -24,9 +21,9 @@
     max-width: 768px;
     }
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .page {
     max-width: 320px;
     padding: 16px 0 0;
     }
-}
+}*/

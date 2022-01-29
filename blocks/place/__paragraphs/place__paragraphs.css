@@ -2,22 +2,10 @@
     grid-area: paragraph;
     margin: 0;
     padding: 0;
-    max-width: 484px;
-}
-@media screen and (max-width: 1024px) {
-    .place__paragraphs {
-        max-width: 456px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .place__paragraphs {
-        max-width: 352px;
-    }
+    max-width: 100%;
 }
 @media screen and (max-width: 320px) {
     .place__paragraphs {
-        max-width: 288px;
-        order: 4;
         align-self: center;
     }
 }

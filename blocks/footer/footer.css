@@ -6,23 +6,28 @@
     width: 92.5%;
     min-height: 18px;
     margin: 0 auto;
-    padding: 92px 48px 24px;
+    padding: 0 48px 24px;
 }
 @media screen and (max-width: 1024px) {
     .footer {
-        width: 90.6%;
+        width: 90.625%;
     }    
 }
 @media screen and (max-width: 768px) {
     .footer {
-        width: 93.7%;
-        padding: 88px 24px;
+        width: 93.75%;
+        padding: 0 24px 24px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 425px) {
     .footer {
         width: 90%;
-        padding: 64px 118px 24px 16px;
+        padding: 0 118px 24px 16px;
         flex-direction: column;
     }    
 }

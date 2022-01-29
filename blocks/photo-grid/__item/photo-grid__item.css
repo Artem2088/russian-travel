@@ -1,6 +1,10 @@
-/*.photo-grid__item {
+.photo-grid__item {
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    min-height: 100%;
    
-@media all and (max-width: 1024px) {
+/*@media all and (max-width: 1024px) {
     .photo-grid__item {
     
     }
