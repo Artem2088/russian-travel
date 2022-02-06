@@ -2,9 +2,9 @@
     display: grid;
     grid-template-columns: repeat(4, minmax(min-content, max-content));
     grid-template-rows: repeat(3, 213px);
-    max-width: 1184px;
+    width: 100%;
     min-height: 671px;
-    padding:0 48px 161px;
+    padding:0 0 92px;
     margin: 0 auto;
     gap: 16px;
     align-items: center;
@@ -18,7 +18,7 @@
         grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(4, auto);
         gap: 14px;
-        padding:92px 48px 161px;
+        padding:92px 0 161px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -28,7 +28,7 @@
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(6, auto);
         gap: 16px;
-        padding: 88px 24px;
+        padding: 88px 0;
     }
 }
 @media screen and (max-width: 600px) {
@@ -36,7 +36,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, auto);
         gap: 16px;
-        padding: 88px 24px;
+        padding: 88px 0;
     }
 }
 @media screen and (max-width: 425px) {
