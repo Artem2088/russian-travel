@@ -1,22 +1,23 @@
 .header__lang-link {
-    display: block;
-    max-width: 30px;
-    min-height: 28px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 117%;
-    text-align: right;
-    color: #FFFFFF;
-    margin: 0;
-    text-decoration: none;
+  display: block;
+  max-width: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 117%;
+  text-align: right;
+  color: #ffffff;
+  margin: 0;
+  text-decoration: none;
+}
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
-    .header__lang-link {
+@media screen and (max-width: 425px) {
+  .header__lang-link {
     max-width: 22px;
-    min-height: 20px;
-    font-size: 0,75em;
-    line-height: 0.83;
-    }
+    font-size: 1.125rem;
+    line-height: 1.1;
+  }
 }

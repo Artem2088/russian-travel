@@ -1,4 +1,27 @@
 .wraper {
-    max-width: 1184px;
-    margin: 0 auto;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: #2a2c2f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smooting: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+@media screen and (max-width: 1024px) {
+  .wraper {
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wraper {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .wraper {
+    max-width: 288px;
+  }
 }

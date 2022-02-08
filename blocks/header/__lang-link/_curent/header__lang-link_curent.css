@@ -1,6 +1,5 @@
 .header__lang-link_curent {
-    display: block;
-    text-decoration-line: underline;
-    text-decoration-color: #FFFFFF;
-    text-decoration-style: solid;
+  text-decoration-line: underline;
+  text-decoration-color: #ffffff;
+  text-decoration-style: solid;
 }

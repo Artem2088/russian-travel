@@ -1,48 +1,47 @@
 .place {
-    max-width: 984px;
-    min-height: 660px;
-    display: grid;
-    grid-template-columns: 46.74% 1fr;
-    grid-template-rows: 2fr;
-    grid-template-areas: 
-              'title website'
-              'image paragraph';
-    column-gap: 40px;
-    row-gap: 48px;
-    margin: 0;
-    padding: 0 0 80px;     
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: 46.74% 1fr;
+  grid-template-rows: 2fr;
+  grid-template-areas:
+    "title website"
+    "image paragraph";
+  column-gap: 40px;
+  row-gap: 48px;
+  margin: 0;
+  padding: 0 0 80px;
 }
 .place:last-child {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 @media screen and (max-width: 1280px) {
-    .place {
-        grid-template-columns: 46.74% 1fr;
-    }
+  .place {
+    grid-template-columns: 46.74% 1fr;
+  }
 }
 @media screen and (max-width: 1024px) {
-    .place {
-        grid-template-columns: 47.41% 1fr;
-        column-gap: 32px;
-    }
+  .place {
+    grid-template-columns: 47.41% 1fr;
+    column-gap: 32px;
+  }
 }
 @media screen and (max-width: 768px) {
-    .place {
-        grid-template-columns: 47.2% 1fr;
-        padding: 0 0 73px;
-    }
+  .place {
+    grid-template-columns: 47.2% 1fr;
+    padding: 0 0 73px;
+  }
 }
 @media screen and (max-width: 700px) {
-    .place {
-        grid-template-columns: 1fr;
-        grid-row-gap: 32px;
-        grid-template-areas:
-                  'title'
-                  'website'
-                  'image'
-                  'paragraph';
+  .place {
+    grid-template-columns: 1fr;
+    grid-row-gap: 32px;
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "paragraph";
     margin-bottom: 50px;
     padding: 0;
-    }
+  }
 }

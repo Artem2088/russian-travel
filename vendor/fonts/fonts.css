@@ -1,29 +1,24 @@
 @font-face {
-    font-family: Inter;
-    src: url(russian-travel/blocks/vendor/fonts/inter.css);
+  font-family: Inter-Black;
+  src: url(./Inter-Black.woff);
 }
 @font-face {
-    font-family: Inter-Black;
-    src: url(./Inter-Black.woff);
+  font-family: Inter-Black;
+  src: url(./Inter-Black.woff2);
 }
 @font-face {
-    font-family: Inter-Black;
-    src: url(./Inter-Black.woff2);
+  font-family: Inter-Bold;
+  src: url(./Inter-Bold.woff);
 }
 @font-face {
-    font-family: Inter-Bold;
-    src: url(./Inter-Bold.woff);
+  font-family: Inter-Bold;
+  src: url(./Inter-Bold.woff2);
 }
 @font-face {
-    font-family: Inter-Bold;
-    src: url(./Inter-Bold.woff2);
+  font-family: Inter-Regular;
+  src: url(./Inter-Regular.woff);
 }
 @font-face {
-    font-family: Inter-Regular;
-    src: url(./Inter-Regular.woff);
+  font-family: Inter-Regular;
+  src: url(./Inter-Regular.woff2);
 }
-@font-face {
-    font-family: Inter-Regular;
-    src: url(./Inter-Regular.woff2);
-}
-
