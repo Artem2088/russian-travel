@@ -7,6 +7,6 @@
 @media screen and (max-width: 320px) {
   .place__paragraphs {
     align-self: center;
-    padding-left: 16px;
+    padding: 0 16px;
   }
 }
